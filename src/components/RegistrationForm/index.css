@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  padding: 20px;
+  margin-top: 120px;
+  border-radius: 5px;
+}
+.first-name {
+  height: 25px;
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #475569;
+}
+.last-name {
+  height: 25px;
+  padding: 5px;
+  width: 100%;
+  cursor: pointer;
+  outline: none;
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #475569;
+}
+
+.first-name-container {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.last-name-container {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.render-first,
+.render-last {
+  width: 100%;
+  margin-top: 10px;
+}
+.heading {
+  color: #ea580c;
+  font-family: 'roboto';
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.button {
+  background-color: #ea580c;
+  color: white;
+  font-family: 'roboto';
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-width: 0px;
+  outline: none;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.label {
+  color: #475569;
+  font-family: 'roboto';
+  font-weight: bold;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.success-form {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  padding: 20px;
+  margin-top: 120px;
+  border-radius: 5px;
+}
+.error-message {
+  color: red;
+  font-size: 10px;
+  font-weight: bold;
+}
